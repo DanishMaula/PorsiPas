@@ -1,0 +1,28 @@
+{
+  "project_name": "PorsiPas",
+  "milestone": "v1.0-mvp",
+  "mode": "interactive",
+  "depth": "standard",
+  "workflow": {
+    "research": false,
+    "plan_check": true,
+    "verifier": true,
+    "auto_advance": false,
+    "require_approval_per_phase": true,
+    "require_approval_per_plan": true
+  },
+  "git": {
+    "commit_docs": true,
+    "commit_planning": true,
+    "branching_strategy": "none"
+  },
+  "quality_gates": {
+    "flutter_analyze_zero_warnings": true,
+    "domain_unit_tests_required": true
+  },
+  "mcp_tools": {
+    "docs": "context7",
+    "diagnostics": "dart",
+    "backend": "firebase"
+  }
+}
