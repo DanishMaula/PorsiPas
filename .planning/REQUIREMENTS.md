@@ -7,8 +7,8 @@
 
 ### Architecture & Core Foundation
 
-- [ ] **ARCH-01**: Struktur proyek menggunakan Feature-First Clean Architecture (`lib/core/` dan `lib/features/<feature_name>/{data,domain,presentation}`) dengan dependency injection (`get_it`), routing deklaratif (`go_router`), dan state management (`flutter_bloc` + `equatable`).
-- [ ] **ARCH-02**: Tersedia design system dasar (warna, tipografi, komponen input/kartu/loading/error dalam Bahasa Indonesia) yang konsisten di Android & iOS.
+- [x] **ARCH-01**: Struktur proyek menggunakan Feature-First Clean Architecture (`lib/core/` dan `lib/features/<feature_name>/{data,domain,presentation}`) dengan dependency injection (`get_it`), routing deklaratif (`go_router`), dan state management (`flutter_bloc` + `equatable`).
+- [x] **ARCH-02**: Tersedia design system dasar (warna, tipografi, komponen input/kartu/loading/error dalam Bahasa Indonesia) yang konsisten di Android & iOS.
 
 ### Local Master Data & Versioned Asset Seeder
 
@@ -75,8 +75,8 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| ARCH-01 | Phase 1 | Pending |
-| ARCH-02 | Phase 1 | Pending |
+| ARCH-01 | Phase 1 | Complete |
+| ARCH-02 | Phase 1 | Complete |
 | DATA-01 | Phase 2 | Pending |
 | DATA-02 | Phase 2 | Pending |
 | DATA-03 | Phase 2 | Pending |

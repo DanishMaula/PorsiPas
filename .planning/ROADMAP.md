@@ -8,7 +8,7 @@ Setiap fase bersifat terverifikasi mandiri dan wajib memenuhi *quality gate* (`f
 
 ## Phases
 
-- [ ] **Phase 1: Project Foundation, Clean Architecture & Design System** — Struktur Feature-First Clean Architecture, DI (`get_it`), routing (`go_router`), BLoC/Equatable, tema UI, dan baseline quality gate.
+- [x] **Phase 1: Project Foundation, Clean Architecture & Design System** — Struktur Feature-First Clean Architecture, DI (`get_it`), routing (`go_router`), BLoC/Equatable, tema UI, dan baseline quality gate. (Completed 2026-11-27)
 - [ ] **Phase 2: Local Master Data (Drift SQLite) & Versioned Asset Seeder** — Skema `foods`, `urt_conversions`, `cooking_factors`, mekanisme `seed_version` dari `assets/data/`, dan 15–20 sample bahan pangan Indonesia.
 - [ ] **Phase 3: Firebase Integration, Authentication & Firestore Rules** — Konfigurasi Firebase (Android/iOS), Login/Register Email & Google Sign-In, `firestore.rules`, dan auth route guard.
 - [ ] **Phase 4: Profile Setup & Mifflin-St Jeor Nutrition Target Engine** — Domain calculator Mifflin-St Jeor (BMR, TDEE, makro, air) dengan unit test 100%, form profil, dan sinkronisasi Firestore.
@@ -27,7 +27,7 @@ Setiap fase bersifat terverifikasi mandiri dan wajib memenuhi *quality gate* (`f
 2. Dependency `flutter_bloc`, `equatable`, `go_router`, `get_it`, dan package pendukung terpasang (diverifikasi via `context7` MCP untuk versi & API terbaru) serta container DI dan router shell berjalan.
 3. Tema Material 3 PorsiPas, komponen UI dasar, dan shell navigasi (bottom nav placeholder) tampil bersih saat app dijalankan.
 4. `flutter analyze` menghasilkan 0 warning/error dan smoke test dasar lulus.
-**Plans:** TBD (run `/gsd-plan-phase 1`)
+**Plans:** 3 plans (`01-01-PLAN.md`, `01-02-PLAN.md`, `01-03-PLAN.md`)
 
 ### Phase 2: Local Master Data (Drift SQLite) & Versioned Asset Seeder
 **Goal:** Membangun penyimpanan lokal offline-first untuk data master TKPI, URT, dan metode masak dengan mekanisme `seed_version` yang siap menerima dataset final tim Gizi tanpa perubahan kode.
@@ -101,7 +101,7 @@ Setiap fase bersifat terverifikasi mandiri dan wajib memenuhi *quality gate* (`f
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Project Foundation, Clean Architecture & Design System | 0/TBD | Not started | - |
+| 1. Project Foundation, Clean Architecture & Design System | 3/3 | Complete | 2026-11-27 |
 | 2. Local Master Data (Drift SQLite) & Versioned Asset Seeder | 0/TBD | Not started | - |
 | 3. Firebase Integration, Authentication & Firestore Rules | 0/TBD | Not started | - |
 | 4. Profile Setup & Mifflin-St Jeor Nutrition Target Engine | 0/TBD | Not started | - |

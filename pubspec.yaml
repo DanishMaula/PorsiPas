@@ -1,5 +1,5 @@
 name: porsi_pas
-description: "A new Flutter project."
+description: "PorsiPas — Pendamping penakaran bahan pangan & perhitungan gizi masakan rumahan Indonesia."
 publish_to: 'none'
 version: 0.1.0+1
 
@@ -9,6 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  equatable: ^3.0.0
+  flutter_bloc: ^9.1.2
+  get_it: ^9.3.0
+  go_router: ^18.1.4
+  google_fonts: ^8.0.0
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
